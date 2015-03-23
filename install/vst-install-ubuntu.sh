@@ -15,7 +15,7 @@ software="nginx apache2 apache2-utils apache2-suexec-custom bsdutils e2fsprogs
     mysql-server mysql-common mysql-client php5-common php5-cgi php5-mysql
     php5-curl libapache2-mod-php5 vsftpd mc exim4 exim4-daemon-heavy
     clamav-daemon flex dovecot-imapd dovecot-pop3d phpMyAdmin awstats e2fslibs
-    webalizer jwhois rssh git spamassassin roundcube roundcube-mysql quota
+    jwhois rssh git spamassassin roundcube roundcube-mysql quota
     roundcube-plugins apparmor-utils sudo bc ftp lsof ntpdate rrdtool
     fail2ban dnsutils vesta vesta-nginx vesta-php"
 
