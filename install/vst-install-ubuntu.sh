@@ -15,7 +15,7 @@ software="nginx apache2 apache2-utils apache2-suexec-custom bsdutils e2fsprogs
     mysql-server mysql-common mysql-client php5-common php5-cgi php5-mysql
     php5-curl libapache2-mod-php5 vsftpd mc exim4 exim4-daemon-heavy
     clamav-daemon flex dovecot-imapd dovecot-pop3d phpMyAdmin awstats e2fslibs
-    webalizer jwhois rssh git spamassassin roundcube roundcube-mysql quota
+    jwhois rssh git spamassassin roundcube roundcube-mysql quota
     roundcube-plugins apparmor-utils sudo bc ftp lsof ntpdate rrdtool
     fail2ban dnsutils vesta vesta-nginx vesta-php"
 
@@ -878,16 +878,13 @@ wget vestacp.com/notify/?$codename -O /dev/null
 # Send notification to admin email
 echo -e "Congratulations, you have just successfully installed \
 the Vesta Control Panel
-
 You can login in Vesta with following credentials:
     username: admin
     password: $vpass
     https://$vst_ip:8083
-
 We hope that you enjoy your installation of Vesta. Please \
 feel free to contact us anytime if you have any questions.
 Thank you.
-
 --
 Sincerely yours
 vestacp.com team
