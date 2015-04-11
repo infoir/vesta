@@ -878,16 +878,13 @@ wget vestacp.com/notify/?$codename -O /dev/null
 # Send notification to admin email
 echo -e "Congratulations, you have just successfully installed \
 the Vesta Control Panel
-
 You can login in Vesta with following credentials:
     username: admin
     password: $vpass
     https://$vst_ip:8083
-
 We hope that you enjoy your installation of Vesta. Please \
 feel free to contact us anytime if you have any questions.
 Thank you.
-
 --
 Sincerely yours
 vestacp.com team
